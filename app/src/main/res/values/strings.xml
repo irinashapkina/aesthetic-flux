@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Main</string>
+    <string name="app_name">Aesthetic Flux</string>
+    <!--BeginningFragment-->
+    <string name="tv_name_app">Aesthetic Flux</string>
+    <string name="tv_welcome">Welcome to our application Aesthetic Flux!</string>
+    <string name="tv_desc">We are glad to welcome you to the world of art, \nwhere you can enjoy beautiful works of art from different eras and styles.\nEnjoy our art collection, and let inspiration take you on amazing journeys through centuries and styles. We hope that you will find inspiration, emotions and unforgettable impressions in our gallery.</string>
+    <string name="tv_thanks">Thank you for choosing our application Aesthetic Flux. \nEnjoy exploring and diving into the world of art!</string>
+    <string name="b_start">Start</string>
 </resources>
