@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="back">#272727</color>
+
+    <color name="tv_activity">#DFDFDF</color>
+    <color name="textColorHint">#80DFDFDF</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="backgroundTint_b_reg">#6A704C</color>
+    <color name="textColor_b_reg">#FFFFFF</color>
+
 </resources>
