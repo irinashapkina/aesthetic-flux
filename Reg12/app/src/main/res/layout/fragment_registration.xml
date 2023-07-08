@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".RegistrationFragment">
+
+    <TextView
+        android:id="@+id/tvTitleAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="168dp"
+        android:text="@string/tv_title_create_account"
+        android:textColor="@color/tv_activity"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/etNameReg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_hint_name_reg"
+        android:inputType="text"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint" />
+
+    <EditText
+        android:id="@+id/etLoginReg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_hint_login_reg"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint" />
+
+
+    <EditText
+        android:id="@+id/etPassReg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/et_hint_pass_reg"
+        android:inputType="textPassword"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint" />
+
+    <Button
+        android:id="@+id/bReg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/backgroundTint_b_reg"
+        android:text="@string/b_registration"
+        android:textColor="@color/textColor_b_reg"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

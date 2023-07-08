@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="back">#272727</color>
+
+    <!--activity_main-->
+
+    <!--цвет надписи-->
+    <color name="tv_activity">#DFDFDF</color>
+    <!--цвет hint (подсказки)-->
+    <color name="textColorHint">#80DFDFDF</color>
+    <!--цвет основного поля где был hint, можно оставить такой же, можно поменять  -->
+    <color name="textColor">#FFFFFF</color>
+    <!--цвет кнопки задний фон-->
+    <color name="backgroundTint_b_reg">#A27028</color>
+    <!--цвет текста на кнопке-->
+    <color name="textColor_b_reg">#FFFFFF</color>
+
+</resources>
