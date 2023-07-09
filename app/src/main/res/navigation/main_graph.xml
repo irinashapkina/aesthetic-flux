@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/authorizeFragment">
+
+    <fragment
+        android:id="@+id/authorizeFragment"
+        android:name="com.example.main.AuthorizeFragment"
+        android:label="fragment_authorize"
+        tools:layout="@layout/fragment_authorize" >
+        <action
+            android:id="@+id/action_authorizeFragment_to_beginningFragment"
+            app:destination="@id/beginningFragment" />
+        <action
+            android:id="@+id/action_authorizeFragment_to_registrationFragment2"
+            app:destination="@id/registrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.main.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_registrationFragment_to_authorizeFragment2"
+            app:destination="@id/authorizeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/beginningFragment"
+        android:name="com.example.main.BeginningFragment"
+        android:label="fragment_beginning"
+        tools:layout="@layout/fragment_beginning" >
+        <action
+            android:id="@+id/action_beginningFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_artFragment2"
+            app:destination="@id/artFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quotesFragment2"
+        android:name="com.example.main.QuotesFragment"
+        android:label="fragment_quotes"
+        tools:layout="@layout/fragment_quotes" />
+    <fragment
+        android:id="@+id/artFragment"
+        android:name="com.example.main.ArtFragment"
+        android:label="fragment_art"
+        tools:layout="@layout/fragment_art" />
+</navigation>

@@ -1,9 +1,35 @@
 <resources>
     <string name="app_name">Aesthetic Flux</string>
+
+    <!--ToastAuthorize-->
+    <string name="toast_login">Please enter your username</string>
+    <string name="toast_pass">Please enter your password</string>
+    <string name="toast_user">The user is not logged in</string>
+
+    <!--ToastRegistration-->
+    <string name="toast_name">Please enter a name</string>
+    <!--Toast.makeText(requireContext(), "Пользователь, $name добавлен.", Toast.LENGTH_LONG)-->
+    <string name="user_added_message">User, %s added.</string>
+
+    <!--RegistrationFragment-->
+    <string name="tv_title_create_account">Create an account</string>
+    <string name="et_hint_name_reg">Enter a name</string>
+    <string name="et_hint_login_reg">Enter your username</string>
+    <string name="et_hint_pass_reg">Enter the password</string>
+    <string name="b_registration">Registration</string>
+
+    <!--AuthorizeFragment-->
+    <string name="tv_title_aut">Log in to your account</string>
+    <string name="et_hint_login_aut">Enter your username</string>
+    <string name="et_hint_pass_aut">Enter the password</string>
+    <string name="tv_reg">Registration</string>
+    <string name="b_authorize">Log in</string>
+
     <!--BeginningFragment-->
-    <string name="tv_name_app">Aesthetic Flux</string>
-    <string name="tv_welcome">Welcome to our application Aesthetic Flux!</string>
+    <string name="tv_name_app">World painting</string>
+    <string name="tv_welcome">Welcome to our application World Painting!</string>
     <string name="tv_desc">We are glad to welcome you to the world of art, \nwhere you can enjoy beautiful works of art from different eras and styles.\nEnjoy our art collection, and let inspiration take you on amazing journeys through centuries and styles. We hope that you will find inspiration, emotions and unforgettable impressions in our gallery.</string>
-    <string name="tv_thanks">Thank you for choosing our application Aesthetic Flux. \nEnjoy exploring and diving into the world of art!</string>
+    <string name="tv_thanks">Thank you for choosing our application World Painting. \nEnjoy exploring and diving into the world of art!</string>
     <string name="b_start">Start</string>
+
 </resources>
