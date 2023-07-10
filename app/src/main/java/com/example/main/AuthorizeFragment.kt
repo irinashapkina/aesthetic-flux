@@ -14,7 +14,6 @@ import com.example.main.databinding.FragmentAuthorizeBinding
 class AuthorizeFragment : Fragment() {
     private var _binding: FragmentAuthorizeBinding? = null
     private val binding get() = _binding!!
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

@@ -4,72 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/back"
     android:orientation="vertical"
     tools:context=".AuthorizeFragment">
 
-    <TextView
-        android:id="@+id/tvTitleAuthorize"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="168dp"
-        android:text="@string/tv_title_aut"
-        android:textColor="@color/titleColor"
-        android:textSize="24dp"
-        android:fontFamily="@font/playfair_display" />
+    <LinearLayout
+        android:id="@+id/background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/avt2"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-1dp">
 
+        <TextView
+            android:id="@+id/tvTitleAuthorize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="168dp"
+            android:text="@string/tv_title_aut"
+            android:fontFamily="@font/playfair_display_sc_bold"
+            android:textColor="@color/textColor"
+            android:textSize="24dp" />
 
-    <EditText
-        android:id="@+id/etLoginAut"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/et_hint_login_aut"
-        android:fontFamily="@font/kurale"
-        android:inputType="textEmailAddress"
-        android:drawableRight="@drawable/baseline_alternate_email_24"
-        android:textColor="@color/textColor"
-        android:textColorHint="@color/textColorHint" />
+        <EditText
+            android:id="@+id/etLoginAut"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/back_tint"
+            android:drawableRight="@drawable/baseline_alternate_email_24"
+            android:ems="10"
+            android:fontFamily="@font/kurale"
+            android:hint="@string/et_hint_login_aut"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColorHint" />
 
+        <EditText
+            android:id="@+id/etPassAut"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/back_tint"
+            android:drawableRight="@drawable/baseline_key_24"
+            android:ems="10"
+            android:fontFamily="@font/kurale"
+            android:hint="@string/et_hint_pass_aut"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColorHint" />
 
-    <EditText
-        android:id="@+id/etPassAut"
-        android:layout_width="220dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/et_hint_pass_aut"
-        android:fontFamily="@font/kurale"
-        android:inputType="textPassword"
-        android:drawableRight="@drawable/baseline_key_24"
-        android:textColor="@color/textColor"
-        android:textColorHint="@color/textColorHint" />
+        <Button
+            android:id="@+id/bAut"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/backgroundTint_b"
+            android:fontFamily="@font/playfair_display"
+            android:text="@string/b_authorize"
+            android:textColor="@color/textColor_b"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/bAut"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/backgroundTint_b_"
-        android:text="@string/b_authorize"
-        android:textColor="@color/textColor_b"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:fontFamily="@font/playfair_display" />
+        <TextView
+            android:id="@+id/tvLinkToReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="168dp"
+            android:text="@string/tv_reg"
+            android:fontFamily="@font/playfair_display_sc_bold"
+            android:textColor="@color/titleColor"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/tvLinkToReg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="168dp"
-        android:text="@string/tv_reg"
-        android:textColor="@color/titleColor"
-        android:textSize="16sp" />
-
+    </LinearLayout>
 </LinearLayout>

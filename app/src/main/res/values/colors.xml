@@ -5,9 +5,12 @@
     <color name="back">#272727</color>
 
     <color name="titleColor">#DFDFDF</color>
-    <color name="textColorHint">#80DFDFDF</color>
+    <color name="textColorHint">#000000</color>
     <color name="textColor">#FFFFFF</color>
-    <color name="backgroundTint_b_">#6A704C</color>
+    <color name="backgroundTint_b">#2E2E2E</color>
     <color name="textColor_b">#FFFFFF</color>
+    <color name="back_tint">#8DB6A8B6</color>
+    <color name="b_begin">#BADFDFDF</color>
+
 
 </resources>

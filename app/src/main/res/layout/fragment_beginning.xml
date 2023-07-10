@@ -60,7 +60,7 @@
         android:id="@+id/bStart"
         android:layout_width="372dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/textColorHint"
+        android:backgroundTint="@color/b_begin"
         android:text="@string/b_start"
         android:textColor="@color/black"
         android:fontFamily="@font/kurale"
