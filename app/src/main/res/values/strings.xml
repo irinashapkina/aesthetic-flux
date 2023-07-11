@@ -32,4 +32,57 @@
     <string name="tv_thanks">Thank you for choosing our application World Painting. \nEnjoy exploring and diving into the world of art!</string>
     <string name="b_start">Start</string>
 
+    <!--HomeFragment-->
+    <string name="b_inform">Inform</string>
+
+    <string name="tv_title_impressionism">Impressionism</string>
+    <string name="tv_inf_impressionism">Originated in the mid-19th century in France</string>
+
+    <string name="tv_title_abstractionism">Abstractionism</string>
+    <string name="tv_inf_abstractionism">The art of expressing essence through abstract forms</string>
+
+    <string name="tv_title_anachronism">Anachronism</string>
+    <string name="tv_inf_anachronism">Transfer of the event from late to early</string>
+
+    <string name="tv_title_divisionism">Divisionism</string>
+    <string name="tv_inf_divisionism">Dividing colors into separate points or spots</string>
+
+    <string name="tv_title_postimpressionism">Postimpressionism</string>
+    <string name="tv_inf_postimpressionism">Freely and generically conveys the materiality of world</string>
+
+    <string name="tv_title_caravaggism">Сaravaggism</string>
+    <string name="tv_inf_caravaggism">Baroque style, which appeared in Rome </string>
+
+    <string name="tv_title_neoclassicism">Neoclassicism</string>
+    <string name="tv_inf_neoclassicism">Relies on the aesthetics of the art of Ancient Greece</string>
+
+    <string name="tv_title_surrealism">Surrealism</string>
+    <string name="tv_inf_surrealism">Surrealists depict secret thoughts, desires and fears</string>
+
+    <string name="tv_title_romanticism">Romanticism</string>
+    <string name="tv_inf_romanticism">Painters raised emotions, feelings, individuality</string>
+
+    <string name="tv_title_renaissance">Renaissance</string>
+    <string name="tv_inf_renaissance">Revivals. Cultural flowering, a time of discovery and rethinking</string>
+
+
+    <!--PostimpressionismFragment-->
+    <string name="tv_postimpressionism">Post-Impressionism is an artistic movement that developed in the late 19th to early 20th century as a continuation of Impressionism but with more pronounced stylistic features. Post-Impressionist artists sought greater symbolic and emotional depth, moving away from a simple representation of impressions. They used vibrant colors, unconventional compositions, and experimented with structure and form to convey their own perception of the world.</string>
+
+    <!--DivisionismFragment-->
+    <string name="tv_divisionism">Divisionism, also known as Pointillism, is an artistic movement that emerged in the late 19th and early 20th centuries, aiming to achieve an optical effect through the use of small dots or strokes of paint. Divisionist artists would separate color into individual dots or strokes that would blend together when viewed from a distance, creating vibrant and dynamic images. The main goal of divisionism was to not only capture the form and outline of objects but also convey light, atmosphere of the scene.</string>
+
+    <!--AbstractionismFragment-->
+    <string name="tv_abstractionism">Abstractionism is an artistic movement in painting that aims to depart from the representation of the external world and instead showcase the artists subjective perception. In abstractionism, forms and colors take precedence, and the image becomes abstract, devoid of specific objects or scenes. This direction allows the artist to express emotions, ideas, and spiritual states through abstract forms and compositions.</string>
+
+    <!--CaravaggismFragment-->
+    <string name="tv_caravaggism">Caravaggism is an artistic movement in painting that emerged in the late 16th to early 17th century and is associated with the works of Italian artist Michelangelo Merisi da Caravaggio. The characteristic features of Caravaggism include the strong use of light and shadow contrasts, dramatic compositions, and the depiction of realistic details. Caravaggists portrayed scenes from everyday life, religious subjects, and portraits, creating a sense of depth and intensity in visual impression.</string>
+    <string name="b_fragment_art">Go to Artists</string>
+
+    <!--AnachronismFragment-->
+    <string name="tv_anachronism">Anachronism in painting is an artistic movement that combines elements from different eras and styles within a single artwork. Anachronistic artists play with temporal periods, creating unusual compositions where historical characters or objects appear in contemporary scenes, or vice versa. This approach allows for a unique perception of the past and present, as well as sparking a dialogue between different epochs.</string>
+
+
+
+
 </resources>

@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 class MainActivity : AppCompatActivity() {
 
     private lateinit var navController: NavController
+    private lateinit var bottomNavigationView: BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,10 +21,12 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentById(R.id.container) as NavHostFragment
         navController = navHostFragment.navController
 
-        findViewById<BottomNavigationView>(R.id.bnv_main)?.setupWithNavController(navController)
+        bottomNavigationView = findViewById<BottomNavigationView>(R.id.bnv_main)?.apply {
+            setupWithNavController(navController)
+        } ?: return
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
-            findViewById<BottomNavigationView>(R.id.bnv_main)?.visibility =
+            bottomNavigationView.visibility =
                 if (isBottomNavigationViewVisible(destination.id)) {
                     View.VISIBLE
                 } else {
@@ -33,7 +36,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isBottomNavigationViewVisible(destinationId: Int): Boolean {
-        return destinationId == R.id.homeFragment2 || destinationId == R.id.quotesFragment2 ||
-                destinationId == R.id.artFragment
+        return when (destinationId) {
+            R.id.homeFragment2, R.id.quotesFragment2, R.id.artFragment -> true
+            else -> false
+        }
     }
 }
