@@ -41,8 +41,20 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment2_to_artFragment2"
-            app:destination="@id/artFragment" />
+            android:id="@+id/action_homeFragment2_to_abstractionismFragment"
+            app:destination="@id/abstractionismFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_anachronismFragment"
+            app:destination="@id/anachronismFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_caravaggismFragment"
+            app:destination="@id/caravaggismFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_divisionismFragment"
+            app:destination="@id/divisionismFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_postimpressionismFragment2"
+            app:destination="@id/postimpressionismFragment" />
     </fragment>
     <fragment
         android:id="@+id/quotesFragment2"
@@ -54,4 +66,49 @@
         android:name="com.example.main.ArtFragment"
         android:label="fragment_art"
         tools:layout="@layout/fragment_art" />
+    <fragment
+        android:id="@+id/abstractionismFragment"
+        android:name="com.example.main.AbstractionismFragment"
+        android:label="fragment_abstractionism"
+        tools:layout="@layout/fragment_abstractionism" >
+        <action
+            android:id="@+id/action_abstractionismFragment_to_artFragment"
+            app:destination="@id/artFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anachronismFragment"
+        android:name="com.example.main.AnachronismFragment"
+        android:label="fragment_anachronism"
+        tools:layout="@layout/fragment_anachronism" >
+        <action
+            android:id="@+id/action_anachronismFragment_to_artFragment"
+            app:destination="@id/artFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caravaggismFragment"
+        android:name="com.example.main.CaravaggismFragment"
+        android:label="fragment_caravaggism"
+        tools:layout="@layout/fragment_caravaggism" >
+        <action
+            android:id="@+id/action_caravaggismFragment_to_artFragment"
+            app:destination="@id/artFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/divisionismFragment"
+        android:name="com.example.main.DivisionismFragment"
+        android:label="fragment_divisionism"
+        tools:layout="@layout/fragment_divisionism" >
+        <action
+            android:id="@+id/action_divisionismFragment_to_artFragment"
+            app:destination="@id/artFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postimpressionismFragment"
+        android:name="com.example.main.PostimpressionismFragment"
+        android:label="fragment_postimpressionism"
+        tools:layout="@layout/fragment_postimpressionism" >
+        <action
+            android:id="@+id/action_postimpressionismFragment_to_artFragment"
+            app:destination="@id/artFragment" />
+    </fragment>
 </navigation>

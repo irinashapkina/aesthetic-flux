@@ -4,12 +4,14 @@
     <color name="white">#FFFFFFFF</color>
     <color name="back">#272727</color>
 
+    <color name="vector">#E1ABAB</color>
     <color name="titleColor">#DFDFDF</color>
     <color name="textColorHint">#000000</color>
     <color name="textColor">#FFFFFF</color>
     <color name="backgroundTint_b">#2E2E2E</color>
     <color name="textColor_b">#FFFFFF</color>
     <color name="back_tint">#8DB6A8B6</color>
+    <color name="back_tint_fragment">#B9FAF6FA</color>
     <color name="b_begin">#BADFDFDF</color>
 
 
